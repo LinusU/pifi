@@ -2,5 +2,41 @@
   "name": "pifi",
   "version": "0.0.0",
   "license": "MIT",
-  "repository": "LinusU/pifi"
+  "repository": "LinusU/pifi",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "assert-rejects": "^0.1.1",
+    "mocha": "^3.2.0",
+    "standard": "^10.0.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "promises",
+    "promisify",
+    "all",
+    "denodify",
+    "denodeify",
+    "callback",
+    "cb",
+    "node",
+    "then",
+    "thenify",
+    "convert",
+    "transform",
+    "wrap",
+    "wrapper",
+    "bind",
+    "to",
+    "async",
+    "es2015",
+    "bluebird"
+  ]
 }
