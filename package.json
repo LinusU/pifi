@@ -15,7 +15,8 @@
     "standard": "^11.0.1"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "promise",
